@@ -4,7 +4,7 @@ public class UserModel {
     Long id;
     String firstName;
     String lastName;
-    int age;
+    String age;
 
     public Long getId() {
         return id;
@@ -30,11 +30,11 @@ public class UserModel {
         this.lastName = lastName;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 }
