@@ -1,0 +1,75 @@
+.divForm {
+    width: 400px;
+    height: 500px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.inputs {
+    margin: auto;
+    width: 51%;
+    margin-bottom: 10px;
+}
+
+.inputs input {
+    width: 100%;
+}
+
+.divForm h1 {
+    margin-left: 25px;
+}
+
+button {
+    width: 40%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.buttonUsrCad {
+    width: 40%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    
+}
+
+.containerWithUsers {
+    width: 400px;
+    height: 500px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.elementosContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.elementosContainer i {
+    margin-right: 10px;
+}
